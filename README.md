@@ -1,4 +1,4 @@
-# Checker Eligible [Grassfoundation](https://www.grassfoundation.io/connect))
+# Checker Eligible [Grassfoundation](https://www.grassfoundation.io/connect)
 
 Bot ini adalah script Python sederhana yang digunakan untuk memeriksa beberapa alamat wallet terkait eligibility dalam alokasi airdrop melalui API Grass. Script ini membaca alamat wallet dari file teks (`wallet.txt`), mengirim permintaan API untuk setiap alamat, dan menampilkan apakah wallet tersebut eligible serta jumlah alokasi koin untuk setiap wallet yang eligible.
 
