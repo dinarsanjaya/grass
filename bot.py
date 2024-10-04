@@ -5,7 +5,7 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 def check_airdrop_allocation(wallet_address):
-    url = "https://api.getgrass.io/airdropAllocations"
+    url = "https://api.getgrass.io/airdropAllocationsV2"
     
     # Parameter query string
     params = {
