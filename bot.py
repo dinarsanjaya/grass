@@ -5,15 +5,11 @@ from colorama import Fore, Style, init
 init(autoreset=True)
 
 def check_airdrop_allocation(wallet_address):
-    url = "https://api.getgrass.io/airdropAllocationsV2"
-    
-    # Parameter query string
-    params = {
-        "input": f'{{"walletAddress":"{wallet_address}"}}'
-    }
+    # Membuat URL dengan wallet address sebagai bagian dari URL
+    url = f"https://api.getgrass.io/zvTlZ8PRouKKGTGNzg4k?input={{%22walletAddress%22:%22{wallet_address}%22}}"
     
     # Mengirim permintaan GET
-    response = requests.get(url, params=params)
+    response = requests.get(url)
     
     if response.status_code == 200:
         data = response.json()
